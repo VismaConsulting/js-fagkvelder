@@ -15,13 +15,13 @@ Gjør disse oppgavene. Nå!
 1. Lag en package.json-fil for prosjektet. Vi skal ha en dependency til en grunt-versjon som er rundt 0.4.2.
 1. Kjør `npm install`
 1. Legg til Gruntfile.js og få den til å lese inn package.json som package
-1. Legg til en grunt-plugin i package.json som kan hjelpe oss med å finne feil i html-filer.
+1. Legg til en grunt-plugin, `grunt-htmlhint` i package.json som kan hjelpe oss med å finne feil i html-filer.
 1. Legg til pluginen i gruntfilen, og konfigurer den til å finne alle de 9 feilene som er i index.html.
 1. Rett disse feilene.
-1. Legg så til en ny plugin som kan hjelpe deg med å minimere (uglify) Javascript-filer.
+1. Legg så til en ny plugin, `grunt-contrib-uglify`,som kan hjelpe deg med å minimere (uglify) Javascript-filer.
 1. Legg til pluginen i gruntfilen, og konfigurer den til å minimere `assets/js/base.js` og legge den minimerte filen i `build\js\`
-1. Legg så til pluginen grunt-contrib-jshint for å sjekke filen `assets/js/badparts.js`
-1. Legg til funksjonalitet for å kjøre disse stegene hver gang kildefilene forandres.
+1. Legg så til pluginen `grunt-contrib-jshint` for å sjekke filen `assets/js/badparts.js`
+1. Legg til funksjonalitet for å kjøre disse stegene hver gang kildefilene forandres. Bruk pluginen `grunt-contrib-watch`.
 
 
 
