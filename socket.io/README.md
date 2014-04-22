@@ -7,6 +7,7 @@ Dette er en workshop for å lære litt om Socket.io. Applikasjonen vi skal lage 
 * Klon dette prosjektet
 * cd til skeleton mappa i et kommandovindu
 * installer dependencies med "npm install".
+* Serveren kan startes ved hjelp av "node server.js" eller "npm start", dersom man står i mappen der filen server.js ligger
 
 ## Nyttige lenker
 * www.socket.io
