@@ -29,4 +29,4 @@ Lag en chat. Denne skal minimum innholde følgende funksjonalitet:
 * Utvid chatten til å støtte flere chatrom
 
 ## Utvid chatten med historikk (Oppgave 5)
-* Utvid chatten til å ha en historikk over de siste 10 meldingene for nye brukere. 
+* Utvid chatten til å ha en historikk over de siste 10 meldinger, slik at nye brukere lettere kan få oversikt.
