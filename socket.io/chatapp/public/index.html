@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/app.css" />
 
    <script src="/socket.io/socket.io.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
    <script type="text/javascript" src="js/main.js"></script>
 </head>
@@ -17,13 +17,19 @@
 
 </script>
 <div class="container">
-    <input id="data"/>
-    <input type="button" id="datasend" value="send" />
-    <div id="conversation"></div>
+    <div id="wrapper">
+        <b>USERS</b>
+        <div id="users"></div>
+    </div>
+    <div id="chatwrapper">
+        <div id="conversation"></div>
+        <input id="data" />
+        <input type="button" id="datasend" value="send" />
+    </div>
 </div>
 
 <script>
-    chatapp.main.start();
+    chatapp.main.init();
 </script>
 
 </body>

@@ -1,3 +1,4 @@
+"use strict";
 var express = require('express'),
     app = express(),
     server = require('http').createServer(app),
@@ -25,17 +26,17 @@ io.sockets.on('connection', function (socket) {
         socket.join(rooms[0]);
         socket.emit('updatechat', 'SERVER', 'you have connected to ' + rooms[0]);
         socket.broadcast.to(rooms[0]).emit('updatechat', 'SERVER', username + ' has connected to this room');
+        io.sockets.emit('updateusers', usernames);
     });
 
-    // when the client emits 'sendchat', this listens and executes
     socket.on('sendchat', function (data) {
         io.sockets.in(socket.room).emit('updatechat', socket.username, data);
     });
 
-    // when the user disconnects.. perform this
-    socket.on('disconnect', function (){
+    socket.on('disconnect', function () {
         delete usernames[socket.username];
         socket.broadcast.emit('updatechat', 'SERVER', socket.username + ' has disconnected');
+        io.sockets.emit('updateusers', usernames);
         socket.leave(socket.room);
     });
 });
