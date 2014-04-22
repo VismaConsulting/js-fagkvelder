@@ -15,7 +15,6 @@ Dette er en workshop for å lære litt om Socket.io. Applikasjonen vi skal lage 
 ## Hello World (Oppgave 1)
 * Ta utgangspunkt i skeleton-koden. Lag en applikasjon der serveren sender meldingen "hello world" til klienten.
 
-
 ## Chatapplikasjon (Oppgave 2)
 Lag en chat. Denne skal minimum innholde følgende funksjonalitet:
 * Brukeren skal kunne angi et valgfritt brukernavn.
@@ -27,5 +26,7 @@ Lag en chat. Denne skal minimum innholde følgende funksjonalitet:
 * Legg til en liste over tilkoblede brukere i chatten.
 
 ## Utvid chatten til å støtte flere chatrom (Oppgave 4)
+* Utvid chatten til å støtte flere chatrom
 
-## Utvid chatten til å ha en historikk over de siste 10 meldingene for nye brukere (Oppgave 5)
+## Utvid chatten med historikk (Oppgave 5)
+* Utvid chatten til å ha en historikk over de siste 10 meldingene for nye brukere. 

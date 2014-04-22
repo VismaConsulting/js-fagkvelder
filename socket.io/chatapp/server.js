@@ -18,8 +18,7 @@ var usernames = {};
 var rooms = ['chatroom'];
 
 io.sockets.on('connection', function (socket) {
-    // when the client emits 'adduser', this listens and executes
-    socket.on('adduser', function(username){
+    socket.on('adduser', function (username){
         socket.username = username;
         socket.room = rooms[0];
         usernames[username] = username;
