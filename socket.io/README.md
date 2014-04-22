@@ -1,5 +1,5 @@
 # Workshop
-Dette er en workshop for å lære litt om Socket.io. Applikasjonen vi skal lage er basert på node, med rammeverkene express og socket.io oppå.
+Dette er en workshop for å lære litt om Socket.io. Applikasjonen vi skal lage er basert på node, sammen med rammeverkene express og socket.io.
 
 ## Ting du må gjøre før du begynner
 * Installer Git
@@ -12,18 +12,20 @@ Dette er en workshop for å lære litt om Socket.io. Applikasjonen vi skal lage 
 * www.socket.io
 * www.expressjs.com
 
-## Hello World
-* Få serveren til å sende en melding med hello world til klienten
+## Hello World (Oppgave 1)
+* Ta utgangspunkt i skeleton-koden. Lag en applikasjon der serveren sender meldingen "hello world" til klienten.
 
-## Chatapplikasjon
+
+## Chatapplikasjon (Oppgave 2)
 Lag en chat. Denne skal minimum innholde følgende funksjonalitet:
-* Valgfritt brukernavn.
-* Mulig å sende og lese meldinger, samt. se hvilken bruker som har sendt de forskjellige meldingene.
-* Informasjon om brukere som kobler til.
-* Informasjon om brukere som kobler fra.
+* Brukeren skal kunne angi et valgfritt brukernavn.
+* Det skal være mulig å sende/lese meldinger. Det skal også være mulig å se hvilken bruker som har sendt en melding.
+* Det skal dukke opp en melding hver gang en bruker kobler til chatten.
+* Det skal dukke opp en melding hver gang en bruker kobler fra chatten.
 
-## Utvid chatten til å ha en brukerliste
-* Legg til en liste over tilkoblede brukere i chatten
+## Utvid chatten til å ha en brukerliste (Oppgave 3)
+* Legg til en liste over tilkoblede brukere i chatten.
 
-## Utvid chatten til å støtte flere rom
-* Legg til funksjonalitet for å ha flere rom i chatten. 
+## Utvid chatten til å støtte flere chatrom (Oppgave 4)
+
+## Utvid chatten til å ha en historikk over de siste 10 meldingene for nye brukere (Oppgave 5)
